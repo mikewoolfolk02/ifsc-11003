@@ -39,12 +39,12 @@ header.primary a{
 }
 
 header.primary h1{
-  text-size: 2.4rem;
+  text-size-adjust: 2.4rem;
   margin:0;
 }
 
 header.primary p.subtitle{
-  text-size: 1.3rem;
+  text-size-adjust: 1.3rem;
   margin: 10px 0 20px;
   letter-spacing: -.2px;
 }
