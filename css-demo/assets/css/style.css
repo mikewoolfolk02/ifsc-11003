@@ -49,7 +49,7 @@ header.primary p.subtitle{
   letter-spacing: -.2px;
 }
 
-header.primary nav{
+header.primary nav.container{
   
 }
 
@@ -71,4 +71,102 @@ header.primary nav ul li a{
   border-radius: 50px;
   border: 1px solid #000000;
   gap: 30px;
+}
+
+#content h2, #blog h2{
+color:#3b638b;
+border-bottom:1px solid #c0c0c0;
+}
+
+#content p{
+  line-height:1.4;
+}
+
+#blog{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:20px;
+}
+
+#blog h2{
+flex: 0 0 100%;
+margin:0;  
+}
+
+#blog article{
+box-shadow: 0 4px 8px rgba(0,0,0, 0.6);
+padding:10px;
+font-size:.7rem;
+flex:1;  
+}
+
+figure{
+margin:0;
+}
+
+#blog article time,
+#blog figcaption {
+  text-transform:uppercase;
+  font-size:.7rem;
+}
+
+#blog a{
+ color:#3B638B;
+}
+
+aside[aria-label="Sidebar"]{
+    background-color: #172635;
+    color:#fff;
+    padding: 20px 0;
+}
+
+aside div.container{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  gap:40px;
+}
+
+aside .container a{
+  color:#ffffff;
+}
+
+article.widget footer{
+  display:none;
+}
+
+footer.primary{
+background-color: #3b638b;
+padding:1px;
+text-align:center;
+color:#ffffff; 
+text-shadow:1px 1px #000000;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ----------- Media Queries ------------  */
+
+@media screen and (max-width:500px){
+  
+header.primary nav ul{
+  flex-direction:column;
+  gap:5px;
+} 
+  
+#blog h2{
+text-align:center;
+}  
+  
 }
