@@ -93,9 +93,6 @@ header.primary  p.subtitle{
   letter-spacing: -.2px;
 }
 
-header.primary nav.container{
-  
-}
 
 header.primary nav ul{
   padding:0;
@@ -191,7 +188,7 @@ width:100%;
 border:1px solid #c0c0c0;
 border-collapse:collapse;  
 }
-table caption{}
+
 tr:nth-child(odd){
   background-color: rgba(0, 0, 0, 0.1); 
 }
